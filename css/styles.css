@@ -358,15 +358,17 @@ text-transform: uppercase;
   
   
 }
+
+.title{
+  margin-bottom: 10px;
+}
 .feature-icon{
   width: 70px;
   height: 70px;
 
 }
 
-.title{
-    margin-bottom: 10px;
-}
+
 .feature-list p{
     color: var(--title-text-color);
     font-weight: 400;
