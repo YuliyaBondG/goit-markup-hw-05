@@ -108,12 +108,12 @@ color: #2196F3;
   width: 100%;
   height: 4px;
   border-radius: 4px;
-  background-color: currentColor;
+  background-color: #2196F3;
   
   
 }
 
-.header-link::after{
+.current-active::after{
   content: "";
   position: absolute;
   left: 0;
@@ -125,7 +125,7 @@ color: #2196F3;
   opacity: 0;
   transition: opacity 250ms var(--timing-funktion);
 }
-.header-link:hover::after{
+.current-active:hover::after{
   opacity: 1;
 }
 
@@ -710,9 +710,7 @@ color: var(--primary-white-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 1px solid #AFB1B8;
-  background-color: #54565c;
-  fill: #AFB1B8;
+  background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms var(--timing-funktion),
   fill 250ms var(--timing-funktion);
 }
